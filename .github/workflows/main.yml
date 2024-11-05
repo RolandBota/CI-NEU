@@ -22,3 +22,8 @@ jobs:
                 ls 
                 node -v
                 npm ci
+
+        - name: build
+          run: |
+                npm run build
+                ls
