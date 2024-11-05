@@ -27,3 +27,11 @@ jobs:
           run: |
                 npm run build
                 ls
+
+    deploy:
+
+        runs-on: ubuntu-latest
+
+        steps:
+
+            - run: ls
